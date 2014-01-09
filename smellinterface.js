@@ -19,13 +19,13 @@ function OnMouseOver () {
 
 	if (foodBad) {
 		output.smell = (bad);
-		renderer.material.color -= Color(1,0,0,1) * Vector3.Andle(-90);
+		renderer.material.color -= Color(1,0,0,1) * Vector3.Angle(-90);
 	} 
 
 	else (foodGood) {
 		output.smell = (none);
-		renderer.material.color -= Color(0, 1, 0, 1) * Vector3.Andle(-90);
+		renderer.material.color -= Color(0, 1, 0, 1) * Vector3.Angle(-90);
 	};
 	
-	Debug.Log (operation successful);
+	Debug.Log (run successful);
 }
